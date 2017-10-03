@@ -12,6 +12,8 @@
 		F22161E91D0260E30029CBB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22161E71D0260E30029CBB7 /* Main.storyboard */; };
 		F22161EB1D0260E30029CBB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22161EA1D0260E30029CBB7 /* Assets.xcassets */; };
 		F22161EE1D0260E30029CBB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22161EC1D0260E30029CBB7 /* LaunchScreen.storyboard */; };
+		F22161F61D0261710029CBB7 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22161F51D0261710029CBB7 /* Line.swift */; settings = {ASSET_TAGS = (); }; };
+		F22161F81D0264310029CBB7 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22161F71D0264310029CBB7 /* DrawView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F22161EA1D0260E30029CBB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F22161ED1D0260E30029CBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F22161EF1D0260E30029CBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22161F51D0261710029CBB7 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		F22161F71D0264310029CBB7 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F22161EA1D0260E30029CBB7 /* Assets.xcassets */,
 				F22161EC1D0260E30029CBB7 /* LaunchScreen.storyboard */,
 				F22161EF1D0260E30029CBB7 /* Info.plist */,
+				F22161F51D0261710029CBB7 /* Line.swift */,
+				F22161F71D0264310029CBB7 /* DrawView.swift */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -134,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22161F61D0261710029CBB7 /* Line.swift in Sources */,
 				F22161E61D0260E30029CBB7 /* ViewController.swift in Sources */,
+				F22161F81D0264310029CBB7 /* DrawView.swift in Sources */,
 				F22161E41D0260E30029CBB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
